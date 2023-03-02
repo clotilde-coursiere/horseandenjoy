@@ -1,110 +1,138 @@
-<!DOCTYPE html>
+<DOCTYPE html>
+
 <html>
 
-<head>
-	<title>My profile</title>
-	<meta name="description" content="who am I?">
-	<meta charset="utf-8">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.2.0/css/all.css" crossorigin="anonymous">
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="style.css">
-</head>
+	<head>
 
-<body>
-	<div class="container">
+		<!-- Google tag (gtag.js) -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=G-5V9PHC2BBC"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
 
-		<div class="card-white">
-			<div style="
-			margin:20px auto;
-			border-top:1px solid lightgrey;
-			border-right: 1px solid lightgrey;
-			border-bottom: 1px solid lightgrey;
-			border-left: 1px solid lightgrey;
-			border-radius: 1%;
-			box-shadow: 5px 5px 0px rgb(222,220,211)">
-			<h1 id="name"> Hello, I'm Clotilde Coursière
-			<img src="images/profile.png" class="img-circle">
+		  gtag('config', 'G-5V9PHC2BBC');
+		</script>
+
+		<title>Horse & enjoy!</title>
+		<meta name="description" content="vacances equitation holydays equestrian activities horseback riding">
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="css/style.css">
+		
+		<div class="cards" style="
+			display:flex;
+			justify content: space-around;
+			margin-bottom:20px;">
+			<img src="images/Horseenjoy.png" alt="logoH&e" style="
+			height: 200px;">
+			<h1 style="justify-content:left;">A new experience to combine horseback riding<br>and other activities</h1>
+			<a href="#" style="
+			height: 20px;"
+			class="btn-blk">Hello, sign in</a>
+		</div>
+	
+		<div class="banner">
+			<div class="banner" style="padding:100px;">
+				<h2>A dreamy destination for horseback riders,<br>their family and friends</h2>
+				<a href="#letsgo-section" class="btn-brown">Lets go!</a>
+			</div>
+		</div>
+	</head>
+
+	<body>
+		<div class="container">
+
+			<h4>
+				<p>You are passionate by horses and/or you practice horseback riding.</p>
+				<p>You want to spend some holidays with family and/or friends.</p>
+				<p style="font-size:32px;">Try a new experience visiting resorts combining many activities.</p>
+				<p>Come and relax for a weekend, a week, or longer, learn or perfect your riding skills in a friendly atmosphere.</p>
+				<p>Our resorts propose a wide range of equestrian activities, on horseback or pony, for adults, children and babies</p>
+				<p style="font-size:32px;">We can also welcome your horses when you come.</p>
+				<p>Feel free to pay us a visit.</p>
+				<p style="font-size:32px;">We look forward to welcoming you <strong>soon!</strong></p>
+			</h4>	 	
+
+			<div class="activities">	
+				<div class="cards" >
+					<img class="avatar" src="images/Horseenjoy.png">
+					<li class="activities">Equestrian activities:
+						<ul>
+							<l class="list-inline">
+								<li>Jumping</li>
+								<li>Dressage</li>
+								<li>Flat work</li>
+								<li>Ethology</li>
+								<li>Lunge lessons</li>
+								<li>Educational clinics</li>
+							</l>
+						</ul>
+					</li>
+
+					<img class="avatar" src="images/Horseenjoy.png">
+					<li class="activities">Other activities:
+						<ul>
+							<l class="list-inline">
+								<li>Swimming-pool</li>
+								<li>Golf</li>
+								<li>Tennis</li>
+								<li>Archery</li>
+								<li>Bike</li>
+								<li>Yoga</li>
+							</l>
+						</ul>
+					</li>
+			
+					<img class="avatar" src="images/Horseenjoy.png">
+					<li class="activities">For young hosts:
+						<ul>
+							<l class="list-inline">
+								<li>Playground</li>
+								<li>Baby pony</li>
+								<li>Pony ride</li>
+								<li>Badminton</li>
+								<li>Volley-ball</li>
+								<li>Minigolf</li>
+							</l>
+						</ul>
+					</li>
+
+					<img class="avatar" src="images/Horseenjoy.png">
+					<li class="activities">And others like cooking,<br> painting, dancing...
+					</li>
+					<li>
+					<img class="avatar" src="images/Horseenjoy.png">
+					</li>
+
+				</div>	
 			</div>
 
-		<div class="card-white">
-			<h2>I am studying in the first year of the Grande École program at</h2>
-			<img src="images/IESEG.jpg" class="img-circle" id="logo">
-		</div>
+			<div id="letsgo-section">
+				<div data-tf-widget="Zc18X6Si" data-tf-opacity="100" data-tf-iframe-props="title=My typeform" data-tf-transitive-search-params data-tf-medium="snippet" style="width:100%;height:500px;"></div><script src="//embed.typeform.com/next/embed.js"></script>
+			</div>
 
-		<div class="card-white">
-			<h3>I have been involved and empowered for several years in school, sports and artistic activities in which my empathetic, organized and curious character has been asserted.</h3>
-		</div>
+			<h3>Our references :</h3>
 
-		<div class="card-white">
-			<h4>I am passionate about horseback riding. A few years ago, I have acquired the Galop 7 level, diploma of the Fédération Française d'Equitation, the equivalent of the British Horse Society (BHS) Stage 4.</h4>
-			<l class="list-inline">
-				<li>
-					<a href="https://www.ffe.com">
-					<img src="images/FFE.png">
-					</a>
-				</li>
-				<li>
-					<a href="https://www.bhs.org.uk">
-					<img src="images/BHS2.jpg">
-					</a>
-				</li>
-		</div>
+			<div class="cards" >
+				<div class="card" style="flex-basis:300px;">
+					<img src="images/IFCE2.png" alt="logo IFCE2" style="height: 60px">
+					<h6>Institut Français du Cheval et de l'Equitation</h6>
+					<a href="https://www.ifce.fr" target="_blank" class="btn-ptnr">Go to IFCE site</a>
+				</div>
 
-		
-		<div class="card-white">
-			<l class="list-inline">
-				<li id="equest">My equestrian activities: 
-					<ul>
-						<li>Jumping</li>
-						<li>Dressage</li>
-						<li>Ethology</li>
-					</ul>
-				</li>
-				<li id="others">My other activities:
-					<ul>
-						<li>Swimming</li>
-						<li>Ballet</li>
-						<li>Piano</li>
-					</ul>
-				</li>
-				<li id="alot">And others like cooking!
-				</li>
-			</l>
-		</div>
+				<div class="card" style="flex-basis:300px;">
+					<img src="images/FFE.png" alt="logo ffe">
+					<h6>Fédération Française d'Equitation</h6>
+					<a href="https://www.ffe.com" target="_blank" class="btn-ptnr">Go to FFE site</a>
+				</div>
 
-		<div class="card-white"> Soon you can also follow me on
-			<img src="images/horseenjoy.png" id="Horseenjoy">
-		</div>
+				<div class="card" style="flex-basis:300px;">
+					<img src="images/BHS2.jpg" alt="logo bhs">
+					<h6 style="padding:10px";>British Horse Society</h6>
+					<a href="https://www.bhs.org.uk" target="_blank" class="btn-ptnr">Go to BHS site</a>
+				</div>
+			</div>
 
-		<div class="card-white" id="discoverbutton" style="margin-bottom:10px">
-			<a href="http://www.horseandenjoy.com" class="btn-blue">
-			Discover Horses and enjoy!
-			</a>
-			<h5>a new site for your family, friends <strong>AND YOU!</strong></h5>
-		</div>
-
-		<div>
-			<ul class="list-inline">
-				<li>
-				<h5>Follow me:</h5>
-				</li>				
-				<li>
-					<a href="https://www.linkedin.com/in/clotilde-coursiere-77517a24b" target="_blank">
-						<i class="fa-brands fa-linkedin"></i>
-					</a>
-				</li>
-				<li>
-					<a href="#" target="_blank">
-						<i class="fa-brands fa-facebook"></i>
-					</a>
-				</li>
-				<li>
-					<a href="#" target="_blank">
-						<i class="fab fa-instagram"></i>
-					</a>
-				</li>
-			</ul>
-		</div>
-
-		
-</body>
+		</div>	
+	</body>
+</html>	
