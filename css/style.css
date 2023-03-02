@@ -1,0 +1,116 @@
+/*Importing Google fonts*/
+@import url("https://fonts.googleapis.com/css?family=lora|Roboto");
+
+
+/*Importing all components files*/
+@import url("components/container.css");
+@import url("components/avatar.css");
+@import url("components/button.css");
+@import url("components/banner.css");
+@import url("components/card.css");
+
+
+/*General style rules for fonts and colours */
+
+head {
+	background color : rgb(240,240,240);
+	margin: 20px 20px;
+}
+
+body {
+	font-family: monospace;
+	font-size:18px;
+	background color : rgb(240,240,240);
+	margin: 20px 20px;
+}
+
+h3 {
+	padding-top: 20px;
+	font-family: monospace;
+	color:darkgrey;
+	font-size:24px;
+	text-align: center;
+}
+
+h4 {
+	background-color: :white;
+	padding: 20px;
+	box-shadow:0px 10px 30px rgba(100,100,100,1);
+	border-radius:4px;
+	margin:20px 20px;
+	text-align: center;
+	font-family: roboto;
+	font-weight:normal;
+	color:#632615;
+	font-size:24px;
+}
+h5 {
+	background-color: :white;
+	padding: 20px;
+	box-shadow:0px 10px 30px rgba(100,100,100,1);
+	border-radius:4px;
+	margin:20px 20px;
+	text-align: center;
+	font-family: robota;
+	font-weight:normal;
+	color:royalblue;
+	font-size:36px;
+}
+
+h6 {
+	font-family: initial;
+	font-weight:lighter;
+}
+
+
+a { text-decoration:none;
+
+ }
+
+ .card-white {
+	background-color: :white;
+	padding: 20px;
+	box-shadow:0px 10px 30px rgba(100,100,100,1);
+	border-radius:4px;
+	margin:20px 20px;
+	text-align: center;
+}
+
+
+.list-inline li {
+	box-shadow:0px 10px 30px rgba(100,100,100,1);
+	text-decoration:none;
+	display:flex;
+	justify content: space-around;
+	max-width: 250px;
+	margin:20px 0px;
+	opacity: 70%;
+	background-color: #F2EBDF;
+	border: darkgrey solid;
+	border-radius:10px;
+	padding-left: 10px;
+	color:black;
+	font-family:cursive;
+	font-weight: normal;
+	font-size:24px;
+
+}
+
+.list-inline i {
+	color:royalblue;
+	font-size: 24px;
+}
+
+.list-inline i:hover {
+	color:red;
+}
+
+.activities {
+	color:darkgrey;
+	font-size:24px;
+	padding: 20px;
+	border-radius:10px;
+	margin:20px 20px;
+	text-align: left;
+}
+

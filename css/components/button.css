@@ -1,0 +1,39 @@
+.btn-blk {
+	background-color: white;
+	padding: 10px 10px;
+	border-radius: 4px;
+	color: black;
+	flex-basis:120px;
+	border:solid black;
+	font-weight:bold;
+	font-size: 14px;
+	font-family: inherit;
+}
+
+.btn-brown {
+	background-color: #6E490E;
+	color: white;
+	padding: 10px 10px;
+	border-radius: 4px;
+	font-weight:light bold;
+	font-family: Roboto, sans serif;
+
+}
+.btn-ptnr {
+	background-color: #1B1BCC;
+	padding: 10px 10px;
+	border-radius: 4px;
+	color: white;
+	font-weight:lighter;
+	font-family: Roboto, sans serif;
+
+}
+.btn-blue {
+	background-color: #6D71DD;
+	padding: 15px 20px;
+	border-radius: 4px;
+	color: white;
+	font-weight:bold;
+	font-family: Roboto, sans serif;
+
+}
